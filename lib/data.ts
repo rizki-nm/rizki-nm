@@ -5,7 +5,7 @@ import vrImg from "@/public/vr.png";
 import surveyasiaImg from "@/public/surveyasia.png";
 
 export const externalLinks = {
-  portfolio: "https://drive.google.com/file/d/1xz8orS7cGoVgbvXAsgAotaiiVAAwyumD/view?usp=sharing",
+  portfolio: "https://drive.google.com/file/d/1-rOw62-hBiNRVGUgFTpQEAXEHqgvS7tG/view?usp=sharing",
   linkedin: "https://linkedin.com/in/rizki-nm",
   github: "https://github.com/rizki-nm",
 } as const;
