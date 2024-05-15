@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        Currently, I'm a final-year student in{" "}
+        Currently, I'm a fresh graduate majoring in{" "}
         <span className="font-medium">Informatics Engineering</span>. I have experience as a {" "}
         <span className="font-medium">Software Engineer Intern</span>, where I participated in building {" "}
         <span className="font-medium">innovative products</span>.{" "}
@@ -29,7 +29,7 @@ export default function About() {
         </span>
         . I am also familiar with TypeScript, Java, PHP. I am always looking to
         learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">internship position</span> as a Software
+        <span className="font-medium">fulltime position</span> as a Software
         Engineer.
       </p>
     </motion.section>
