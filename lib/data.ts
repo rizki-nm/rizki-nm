@@ -39,6 +39,15 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Back End Engineer Intern",
+    company: "@Qiscus",
+    location: "Remote",
+    description:
+      "I worked as a Back End Engineer Intern in Integration Squad. Developed a multiple 'custom' apps and add-on based on client needs.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Nov 2023 - Now",
+  },
+  {
     title: "Software Engineer Intern",
     company: "@Stechoq Robotika Indonesia",
     location: "Yogyakarta, Indonesia",
