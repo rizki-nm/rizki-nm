@@ -65,7 +65,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, </span>I'm {" "}
         <span className="font-bold underline">Rizki</span> Nuzul Muzaki, 
-        a final-year student in{" "}
+        a fresh graduate majoring in{" "}
         <span className="font-bold">Informatics Engineering</span>. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
         <span className="underline">Backend Developer</span>.
