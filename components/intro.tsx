@@ -4,16 +4,13 @@ import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
-import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
-import { useActiveSectionContext } from "@/context/active-section-context";
 import photoImg from "@/public/photo.png";
 import { externalLinks } from "@/lib/data";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
-  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
     <section
@@ -21,7 +18,7 @@ export default function Intro() {
       id="home"
       className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
     >
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center mt-20">
         <div className="relative">
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
@@ -63,12 +60,9 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, </span>I'm {" "}
         <span className="font-bold underline">Rizki</span> Nuzul Muzaki, 
-        a fresh graduate majoring in{" "}
-        <span className="font-bold">Informatics Engineering</span>. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">Backend Developer</span>.
+        a <span className="underline">Software Engineer</span> obsessed with building powerful backend systems.
+        I work with <span className="font-bold italic">Go, Ruby on Rails, and JS Frameworks.</span> Let's build something awesome!
       </motion.h1>
 
       <motion.div

@@ -5,7 +5,7 @@ import vrImg from "@/public/vr.png";
 import surveyasiaImg from "@/public/surveyasia.png";
 
 export const externalLinks = {
-  portfolio: "https://drive.google.com/file/d/1-rOw62-hBiNRVGUgFTpQEAXEHqgvS7tG/view?usp=sharing",
+  portfolio: "https://drive.google.com/file/d/1FkcycHoHSU08irLP5_tY9NpXVyrveG0T/view?usp=sharing",
   linkedin: "https://linkedin.com/in/rizki-nm",
   github: "https://github.com/rizki-nm",
 } as const;
@@ -39,13 +39,22 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Back End Engineer Intern",
+    title: "Backend Engineer",
     company: "@Qiscus",
     location: "Remote",
     description:
-      "I worked as a Back End Engineer Intern in Integration Squad. Developed a multiple 'custom' apps and add-on based on client needs.",
+        "I worked as a Backend Engineer in Operation Squad. Maintain and improve a multiple custom apps and add-on.",
     icon: React.createElement(CgWorkAlt),
-    date: "Nov 2023 - Now",
+    date: "June 2024 - Now",
+  },
+  {
+    title: "Backend Engineer Intern",
+    company: "@Qiscus",
+    location: "Remote",
+    description:
+      "I worked as a Backend Engineer Intern in Integration Squad. Developed a multiple custom apps and add-on based on client needs.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Nov 2023 - May 2024",
   },
   {
     title: "Software Engineer Intern",
@@ -88,7 +97,6 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "Medical Equipment Simulation (VR)",
-    linkUrl: "#",
     description:
       "Virtual reality apps were built using Unity. Users, particularly in the medical field, can simulate a ventilator using Virtual Reality.",
     tags: ["Unity", "C#", "Virtual Reality"],
@@ -96,7 +104,6 @@ export const projectsData = [
   },
   {
     title: "SurveyAsia",
-    linkUrl: "#",
     description:
       "Survey management system application. Include features such as creating surveys, survey analysis, and live chat.",
     tags: ["Vue JS", "Bootstrap", "Laravel", "MySQL", "RestFul API"],
@@ -105,18 +112,17 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
+  "Go",
+  "Ruby on Rails",
   "JavaScript",
   "TypeScript",
-  "Java",
-  "PHP",
   "Express",
+  "Nest JS",
   "Laravel",
-  "Node.js",
+  "Docker",
   "Git",
   "Tailwind",
-  "Prisma",
   "MySQL",
   "PostgreSQL",
+  "MongoDB",
 ] as const;
